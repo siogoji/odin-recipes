@@ -1,0 +1,115 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background-color: #f3eee7;
+}
+
+/* Home Page */
+
+.card {
+    width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    border: 3px solid #ded6cc;
+}
+
+.card h1 {
+    margin-bottom: 20px;
+}
+
+.recipes a {
+    text-decoration: none;
+    color: brown;
+    font-weight: bold;
+    margin: 0 12px;
+}
+
+.recipes a:hover {
+    color: rgb(187, 122, 76);
+}
+
+/* Recipe Page */
+
+.recipe-page {
+    background-color: bisque;
+    width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.recipe-title {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.recipe-image-container {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.recipe-image {
+    width: 320px;
+    height: auto;
+}
+
+.recipe-description-container {
+    margin-bottom: 16px;
+}
+
+.recipe-description-header {
+    margin-bottom: 8px;
+}
+
+.recipe-ingredients-container {
+    margin-bottom: 16px;
+}
+
+.recipe-ingredients-header {
+    margin-bottom: 8px;
+}
+
+.recipe-ingredients-list {
+    list-style-position: inside;
+}
+
+.recipe-ingredients-list-item {
+
+}
+
+
+.recipe-steps-header {
+    margin-bottom: 8px;
+}
+
+.recipe-steps-list {
+    list-style-position: inside;
+}
+
+.recipe-steps-list-item {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    margin: 24px;
+}
+
+footer a {
+    text-decoration: none;
+    color: brown;
+    font-weight: bold;
+    border: 2px solid brown;
+    padding: 8px 16px;
+}
+
+footer a:hover {
+    background-color: rgb(187, 122, 76);
+    color: white;
+}
